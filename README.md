@@ -6,8 +6,8 @@ Don't forget to create a `.env` file with the following content:
 
 ```
 OPERATOR_ID=<operator ID>
-OPERATOR_PBKEY=<public key>
-OPERATOR_PVKEY=<private key>
+OPERATOR_PBKEY=<DER public key>
+OPERATOR_PVKEY=<DER private key>
 ```
 
 This repository contains the code and instructions for the Hedera Token Service Workshop. There are four examples in total, each of which demonstrates a different aspect of the Hedera Token Service. The examples are as follows:

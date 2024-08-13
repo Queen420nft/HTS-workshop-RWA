@@ -26,7 +26,7 @@ async function main() {
   const client = Client.forTestnet().setOperator(operatorId, operatorKey);
 
   try {
-    
+    console.log("client: ", client)
   } catch (error) {
     console.log(error);
   }
